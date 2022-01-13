@@ -8,4 +8,11 @@ const router = express.Router();
 //route to add employee
 router.post('/add-employee',userAuth , EmployeeController.newEmployee);
 
+//route to get ALL employee
+router.get('/get-all-employee',userAuth , EmployeeController.getAllEmployees);
+
+//route to get a SINGLE employee by their user id
+router.get('/get-employee',userAuth , EmployeeController.getEmployee);
+
+
 export default router;

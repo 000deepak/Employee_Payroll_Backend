@@ -37,3 +37,38 @@ export const newEmployee = async (body) => {
     return response;
   }
 };
+
+//get all Employees
+export const getAllEmployees = async () => {
+  const data = await Employee.find();
+
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+
+  response.status = 200;
+  response.success = true;
+  response.message = 'Employees Fetched';
+  response.data = data;
+  return response;
+};
+
+//get single Employee
+export const getEmployee = async (id) => {
+  const data = await Employee.findById(id);
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+
+  response.status = 200;
+  response.success = true;
+  response.message = 'Employee Fetched';
+  response.data = data;
+  return response;
+};
