@@ -111,3 +111,19 @@ export const updateEmployee = async (id, body) => {
     return response;
   }
 };
+
+//delete single Employee
+export const deleteEmployee = async (id) => {
+  let data = await Employee.findByIdAndDelete(id);
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+  response.status = 200;
+  response.success = true;
+  response.message = 'Employee Deleted';
+  response.data = data;
+  return response;
+};

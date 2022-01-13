@@ -17,5 +17,8 @@ router.get('/get-employee',userAuth , EmployeeController.getEmployee);
 //route to update a single employee by their user id
 router.put('/update-employee/:_id',userAuth , EmployeeController.updateEmployee);
 
+//route to delete a single employee by their user id
+router.delete('/delete-employee/:_id',userAuth ,EmployeeController.deleteEmployee); 
+
 
 export default router;

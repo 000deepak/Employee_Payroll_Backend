@@ -61,3 +61,19 @@ export const updateEmployee = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to delete a Employee
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteEmployee = async (req, res, next) => {
+  try {
+    //await EmployeeService.deleteEmployee(req.params._id);
+    let data = await EmployeeService.deleteEmployee(req.params._id);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};
