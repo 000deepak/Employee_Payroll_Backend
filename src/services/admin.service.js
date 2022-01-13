@@ -168,3 +168,37 @@ export const resetPassword = async (body) => {
     return response;
   }
 };
+
+//get all Admins
+export const getAllAdmins = async () => {
+  const data = await Admin.find();
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+  response.status = 201;
+  response.success = false;
+  response.message = 'All Admin Fectched';
+  response.data = data;
+
+  return response;
+};
+
+//get single Adimin by id
+export const getAdmin = async (id) => {
+  const data = await Admin.findById(id);
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+  response.status = 201;
+  response.success = false;
+  response.message = 'Admin Fetched';
+  response.data = data;
+
+  return response;
+};

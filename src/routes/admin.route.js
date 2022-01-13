@@ -25,5 +25,10 @@ router.post('/forgot-password', Validator.emailValidator, AdminController.forgot
 //Reset password
 router.post('/reset-password', userAuth,Validator.passwordValidator, AdminController.resetPassword); 
 
+//get all admins
+router.get('/get-all-admin', AdminController.getAllAdmin);
+
+//get single admin 
+router.get('/get-admin', AdminController.getAdmin);
 
 export default router;
