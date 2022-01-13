@@ -34,5 +34,8 @@ router.get('/get-admin', AdminController.getAdmin);
 //update admin
 router.put('/update-admin',Validator.adminValidator,AdminController.updateAdmin); 
 
+//delete admin
+router.delete('/delete-admin', AdminController.deleteAdmin ); 
+
 
 export default router;

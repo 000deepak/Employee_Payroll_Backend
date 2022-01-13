@@ -203,7 +203,6 @@ export const getAdmin = async (id) => {
   return response;
 };
 
-
 //update single Admin
 export const updateAdmin = async (_id, body) => {
   const data = await Admin.findByIdAndUpdate(
@@ -225,6 +224,23 @@ export const updateAdmin = async (_id, body) => {
   response.status = 201;
   response.success = false;
   response.message = 'Admin Updated';
+  response.data = data;
+
+  return response;
+};
+
+//delete single Admin
+export const deleteAdmin = async (id) => {
+  let data = await Admin.findByIdAndDelete(id);
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+  response.status = 201;
+  response.success = false;
+  response.message = 'Admin Deleted';
   response.data = data;
 
   return response;

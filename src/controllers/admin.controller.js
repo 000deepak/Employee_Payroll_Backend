@@ -105,9 +105,24 @@ export const getAdmin = async (req, res, next) => {
  * @param {object} res - response object
  * @param {Function} next
  */
- export const updateAdmin = async (req, res, next) => {
+export const updateAdmin = async (req, res, next) => {
   try {
     const data = await AdminService.updateAdmin(req.params._id, req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};
+
+/**
+ * Controller to delete a Admin
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const deleteAdmin = async (req, res, next) => {
+  try {
+    let data = await AdminService.deleteAdmin(req.params._id);
     res.status(data.status).json(data);
   } catch (error) {
     next(error);
