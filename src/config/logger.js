@@ -1,4 +1,15 @@
-import winston, { format } from 'winston';
+/**
+ * @purpose      To keep record of errors and  events taking place while running app
+ * @module       config
+ * @file         logger.js
+ * @author       deepak 
+ * @since        9/1/2022
+ */
+
+import all from 'winston';
+const { format } = all;
+const winston =all;
+
 import 'winston-daily-rotate-file';
 
 /**
