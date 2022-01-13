@@ -11,7 +11,6 @@ import bcrypt from 'bcrypt';
 import jwt from 'jsonwebtoken';
 import * as sendEmail from '../middlewares/nodemailer.middleware.js';
 
-
 //create new Admin
 export const newAdmin = async (body) => {
   let email = { email: body.email };
@@ -127,6 +126,41 @@ export const forgotPassword = async (body) => {
     return response;
   } else {
     response.status = 404;
+    response.success = false;
+    response.message = 'Admin Not Found';
+    response.data = body;
+
+    return response;
+  }
+};
+
+//reset password
+export const resetPassword = async (body) => {
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+  let adminId = { _id: body.data.adminId };
+  let foundAdmin = await Admin.findOne(adminId);
+  if (foundAdmin) {
+    //('Resetting Password ', foundAdmin);
+
+    let hash = await bcrypt.hash(body.confirmPassword, 8);
+
+    let newPassword = { password: hash };
+
+    let update = await Admin.findByIdAndUpdate(adminId, newPassword);
+
+    response.status = 200;
+    response.success = true;
+    response.message = 'Password Update Successful';
+    response.data = update;
+
+    return response;
+  } else {
+    response.status = 200;
     response.success = false;
     response.message = 'Admin Not Found';
     response.data = body;

@@ -22,5 +22,8 @@ router.post('/login-admin', Validator.loginValidator, AdminController.loginAdmin
 //Forgot Password
 router.post('/forgot-password', Validator.emailValidator, AdminController.forgotPassword);
 
+//Reset password
+router.post('/reset-password', userAuth,Validator.passwordValidator, AdminController.resetPassword); 
+
 
 export default router;

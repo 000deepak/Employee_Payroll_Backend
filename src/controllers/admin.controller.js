@@ -53,3 +53,18 @@ export const forgotPassword = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to reset Password
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const resetPassword = async (req, res, next) => {
+  try {
+    const data = await AdminService.resetPassword(req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};
