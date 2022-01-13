@@ -72,3 +72,42 @@ export const getEmployee = async (id) => {
   response.data = data;
   return response;
 };
+
+//update single Employee
+export const updateEmployee = async (id, body) => {
+  let response = {
+    status: 201,
+    success: true,
+    message: '',
+    data: ''
+  };
+  let email = { email: body.email };
+  let foundAdmin = await Employee.findOne(email);
+  if (!foundAdmin) {
+    let newEmp = {
+      firstName: body.firstName,
+      lastName: body.lastName,
+      email: body.email,
+      gender: body.gender,
+      department: body.department,
+      salary: body.salary,
+      date: body.date,
+      note: body.note
+    };
+    const data = await Employee.findByIdAndUpdate({ _id: id }, newEmp, {
+      new: true
+    });
+
+    response.status = 200;
+    response.success = true;
+    response.message = 'Employee Updated';
+    response.data = data;
+    return response;
+  } else {
+    response.status = 404;
+    response.success = false;
+    response.message = 'Employee Not Found';
+    response.data = body;
+    return response;
+  }
+};

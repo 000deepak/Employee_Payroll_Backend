@@ -46,3 +46,18 @@ export const getEmployee = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to update a Employee
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const updateEmployee = async (req, res, next) => {
+  try {
+    const data = await EmployeeService.updateEmployee(req.params._id, req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};

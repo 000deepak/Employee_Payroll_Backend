@@ -14,5 +14,8 @@ router.get('/get-all-employee',userAuth , EmployeeController.getAllEmployees);
 //route to get a SINGLE employee by their user id
 router.get('/get-employee',userAuth , EmployeeController.getEmployee);
 
+//route to update a single employee by their user id
+router.put('/update-employee/:_id',userAuth , EmployeeController.updateEmployee);
+
 
 export default router;
