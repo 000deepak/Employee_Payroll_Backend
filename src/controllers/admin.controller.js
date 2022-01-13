@@ -23,3 +23,18 @@ export const newAdmin = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to loginAdmin
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const loginAdmin = async (req, res, next) => {
+  try {
+    const data = await AdminService.loginAdmin(req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};

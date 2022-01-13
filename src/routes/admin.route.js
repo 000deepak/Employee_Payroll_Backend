@@ -9,12 +9,14 @@
 import express from 'express';
 import * as AdminController from '../controllers/admin.controller';
 import * as Validator from '../validators/validator';
-import { userAuth } from '../middlewares/auth.middleware';
+import { userAuth } from '../middlewares/auth.middleware'; 
 
 const router = express.Router();
 
 //route to create a new admin
 router.post('/register-admin', Validator.adminValidator, AdminController.newAdmin);
 
+//route to login admin
+router.post('/login-admin', Validator.loginValidator, AdminController.loginAdmin);
 
 export default router;

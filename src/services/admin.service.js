@@ -8,6 +8,7 @@
 
 import Admin from '../models/admin.model.js';
 import bcrypt from 'bcrypt';
+import jwt from 'jsonwebtoken';
 
 //create new Admin
 export const newAdmin = async (body) => {
@@ -40,6 +41,56 @@ export const newAdmin = async (body) => {
       message: 'admin already exists',
       data: body
     };
+    return response;
+  }
+};
+
+//login Admin
+export const loginAdmin = async (body) => {
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+
+  let email = { email: body.email };
+  let foundAdmin = await Admin.findOne(email);
+
+  if (foundAdmin) {
+    let match = await bcrypt.compare(body.password, foundAdmin.password);
+    if (match) {
+      let token = jwt.sign(
+        { email: foundAdmin.email, adminId: foundAdmin.id },
+        'secret'
+      );
+
+      let obj = {
+        firstName: foundAdmin.firstName,
+        lastName: foundAdmin.lastName,
+        adminId: foundAdmin.id,
+        email: foundAdmin.email,
+        token: token
+      };
+
+      response.status = 200;
+      response.success = true;
+      response.message = 'Login Successful';
+      response.data = obj;
+      return response;
+    }
+    response.status = 401;
+    response.success = false;
+    response.message = 'Invalid Password';
+    response.data = body;
+
+    return response;
+  } else {
+    response.status = 404;
+    response.success = false;
+    response.message = 'Admin Not Found';
+    response.data = body;
+
     return response;
   }
 };
