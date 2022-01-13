@@ -202,3 +202,30 @@ export const getAdmin = async (id) => {
 
   return response;
 };
+
+
+//update single Admin
+export const updateAdmin = async (_id, body) => {
+  const data = await Admin.findByIdAndUpdate(
+    {
+      _id
+    },
+    body,
+    {
+      new: true
+    }
+  );
+
+  let response = {
+    status: 201,
+    success: false,
+    message: '',
+    data: ''
+  };
+  response.status = 201;
+  response.success = false;
+  response.message = 'Admin Updated';
+  response.data = data;
+
+  return response;
+};

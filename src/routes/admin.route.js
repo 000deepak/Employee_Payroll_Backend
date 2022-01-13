@@ -31,4 +31,8 @@ router.get('/get-all-admin', AdminController.getAllAdmin);
 //get single admin 
 router.get('/get-admin', AdminController.getAdmin);
 
+//update admin
+router.put('/update-admin',Validator.adminValidator,AdminController.updateAdmin); 
+
+
 export default router;

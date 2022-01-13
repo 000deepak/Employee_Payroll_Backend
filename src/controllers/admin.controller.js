@@ -98,3 +98,18 @@ export const getAdmin = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to update a Admin
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+ export const updateAdmin = async (req, res, next) => {
+  try {
+    const data = await AdminService.updateAdmin(req.params._id, req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};
