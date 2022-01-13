@@ -38,3 +38,18 @@ export const loginAdmin = async (req, res, next) => {
     next(error);
   }
 };
+
+/**
+ * Controller to forgot pasword link
+ * @param  {object} req - request object
+ * @param {object} res - response object
+ * @param {Function} next
+ */
+export const forgotPassword = async (req, res, next) => {
+  try {
+    const data = await AdminService.forgotPassword(req.body);
+    res.status(data.status).json(data);
+  } catch (error) {
+    next(error);
+  }
+};

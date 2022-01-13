@@ -19,4 +19,8 @@ router.post('/register-admin', Validator.adminValidator, AdminController.newAdmi
 //route to login admin
 router.post('/login-admin', Validator.loginValidator, AdminController.loginAdmin);
 
+//Forgot Password
+router.post('/forgot-password', Validator.emailValidator, AdminController.forgotPassword);
+
+
 export default router;
