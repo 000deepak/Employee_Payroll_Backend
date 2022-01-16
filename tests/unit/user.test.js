@@ -1,11 +1,11 @@
-import { expect } from 'chai';
-import * as UserService from '../../src/services/user.service';
+/* import { expect } from 'chai';
+import * as adminService from '../../src/services/admin.service';
 import mongoose from 'mongoose';
 
 import dotenv from 'dotenv';
 dotenv.config();
 
-describe('User', () => {
+describe('admin', () => {
   before((done) => {
     const clearCollections = () => {
       for (const collection in mongoose.connection.collections) {
@@ -27,10 +27,11 @@ describe('User', () => {
     done();
   });
 
-  describe('Get Users', () => {
+  describe('Get admins', () => {
     it('should return empty array', async () => {
-      const result = await UserService.getAllUsers();
+      const result = await adminService.getAlladmins();
       expect(result).to.be.an('array');
     });
   });
 });
+ */

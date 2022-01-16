@@ -1,0 +1,32 @@
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:03:58:47 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 339 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:03:59:34 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 368 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:00:34 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 324 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:00:41 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:00:47 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:00:56 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:01:02 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 62 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:01:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 301 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:01:37 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 200 329 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:02:04 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 200 330 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:02:31 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 326 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:03:16 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:04:44 +0000] "PUT /api/v1/employee/update-employee/61e246e2ceca592b10b052c2 HTTP/1.1" 200 326 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:05:53 +0000] "DELETE /api/v1/employee/delete-employee/61e246e2ceca592b10b052c2 HTTP/1.1" 200 326 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:06:37 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [15/Jan/2022:04:07:47 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 200 335 "-" "Thunder Client (https://www.thunderclient.io)"
+

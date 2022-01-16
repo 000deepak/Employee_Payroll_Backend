@@ -1,0 +1,50 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T07:58:36.785Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T07:58:36.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:12:07.338Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:12:07.464Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:14:38.732Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:14:38.775Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:14:59.140Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:14:59.186Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:16:14.191Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:16:14.237Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:16:49.839Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:16:49.887Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:17:45.947Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:17:45.995Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:21:35.612Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:21:35.650Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" must only contain alpha-numeric characters 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T08:21:35.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:21:59.429Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:21:59.484Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" must only contain alpha-numeric characters 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T08:21:59.578Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:22:28.544Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:22:28.592Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T08:22:28.658Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-16T08:29:28.456Z"}
+info: Connected to the database. {"timestamp":"2022-01-16T08:29:28.504Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" length must be at least 6 characters long 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-16T08:29:28.579Z"}

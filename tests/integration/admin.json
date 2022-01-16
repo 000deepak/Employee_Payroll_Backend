@@ -1,0 +1,16 @@
+{
+  "empty": {},
+
+  "loginData": {
+    "email": "deep@gmail.com",
+    "password": "Mern123"
+  },
+
+  "adminData": {
+    "firstName": "MERN",
+    "lastName": "MERN",
+    "email": "deep@gmail.com",
+    "password": "Mern123"
+  }
+
+}

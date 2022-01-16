@@ -1,0 +1,1675 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:30:58.666Z"}
+error: Could not connect to the database. querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net {"code":"ECONNREFUSED","hostname":"_mongodb._tcp.demo.aoloa.mongodb.net","stack":"Error: querySrv ECONNREFUSED _mongodb._tcp.demo.aoloa.mongodb.net\n    at QueryReqWrap.onresolve [as oncomplete] (node:dns:213:19)","syscall":"querySrv","timestamp":"2022-01-13T02:30:58.685Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:34:09.409Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:34:09.443Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:43:03.193Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:43:03.227Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:43:50.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:43:50.081Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:48:10.731Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:48:10.761Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:49:11.750Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:49:11.788Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot read properties of undefined (reading 'message')
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:24:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T02:49:13.122Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:49:54.496Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:49:54.533Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:31:17)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T02:49:56.104Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:51:44.100Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:51:44.133Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:52:12.965Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:52:12.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:54:23.081Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:54:23.118Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:57:16.026Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:57:16.064Z"}
+error: 
+    status - 500 
+    message - ReferenceError: response is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:33:13)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T02:57:16.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:57:50.827Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:57:50.869Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:57:58.647Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:57:58.684Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T02:58:52.445Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T02:58:52.481Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:01:27.754Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:01:27.787Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:10:24.824Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:10:24.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:12:56.211Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:12:56.289Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:13:39.325Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:13:39.362Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:21:27)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:13:40.736Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:14:32.304Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:14:32.347Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:21:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:14:55.492Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:16:16.656Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:16:16.696Z"}
+error: 
+    status - 500 
+    message - RangeError: Invalid status code: undefined
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.writeHead (node:_http_server:274:11)
+    at ServerResponse.writeHead (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\on-headers\index.js:44:26)
+    at ServerResponse._implicitHeader (node:_http_server:265:8)
+    at write_ (node:_http_outgoing:766:9)
+    at ServerResponse.end (node:_http_outgoing:855:5)
+    at ServerResponse.send (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:221:10)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:267:15)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:22:29)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:16:30.468Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:16:58.726Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:16:58.762Z"}
+error: 
+    status - 500 
+    message - ReferenceError: CONFLICT is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:42:15)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/register-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:17:00.397Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:19:32.340Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:19:32.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:21:19.173Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:21:19.212Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:21:30.603Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:21:30.642Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:29:22.107Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:29:22.136Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:29:45.355Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:29:45.391Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:32:45.636Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:32:45.674Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:33:19.782Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:33:19.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:34:18.031Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:34:18.070Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:37:28.861Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:37:28.903Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:39:01.266Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:39:01.308Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:55:11)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.loginAdmin (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:50:24)
+    at _callee2$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:35:37)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:39:16.017Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:40:34.813Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:40:34.847Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee2$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:55:11)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at Object.<anonymous> (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12)
+    at Object.loginAdmin (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:50:24)
+    at _callee2$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:35:37)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9) 
+    url - /api/v1/users/login-admin 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:41:00.274Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:41:46.721Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:41:46.757Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:42:46.855Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:42:46.890Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:44:39.459Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:44:39.497Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:45:30.039Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:45:30.075Z"}
+error: 
+    status - 500 
+    message - ReferenceError: response is not defined
+    at _callee3$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:122:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:45:45.534Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:46:21.180Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:46:21.214Z"}
+error: 
+    status - 500 
+    message - TypeError: Cannot create property 'status' on string 'Admin Not Found'
+    at _callee4$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:151:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/reset-password 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:48:19.797Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:50:41.274Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:50:41.313Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:51:17.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:51:17.700Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:52:29.596Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:52:29.630Z"}
+error: 
+      status - 400
+      message - Authorization token is required 
+      url - /api/v1/users/reset-password 
+      method - POST 
+      IP - ::ffff:127.0.0.1
+     {"timestamp":"2022-01-13T03:52:41.170Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:54:32.160Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:54:32.198Z"}
+error: 
+    status - 500 
+    message - TypeError: AdminService.getAllAdmin is not a function
+    at _callee5$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:80:37)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at getAllAdmin (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:78:25)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12) 
+    url - /api/v1/users/get-all-admin 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:54:37.529Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:55:49.487Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:55:49.523Z"}
+error: 
+    status - 500 
+    message - ReferenceError: response is not defined
+    at _callee5$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:176:3)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/get-all-admin 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:55:51.061Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:56:52.801Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:56:52.842Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:57:01.435Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:57:01.483Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T03:57:10.126Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T03:57:10.167Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ email: 'deepakkumbhar1920111@gmail.com' }" (type Object) at path "_id" for model "admins"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/get-admin 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T03:58:52.705Z"}
+error: 
+    status - 500 
+    message - CastError: Cast to ObjectId failed for value "{ id: '61df99e602aa150b04fcff58' }" (type Object) at path "_id" for model "admins"
+    at model.Query.exec (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\mongoose\lib\query.js:4498:21)
+    at model.Query.Query.then (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\mongoose\lib\query.js:4592:15)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/get-admin 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:00:25.530Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:01:59.883Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:01:59.926Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:06:59.922Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:06:59.969Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:07:24.287Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:07:24.323Z"}
+error: 
+    status - 500 
+    message - ValidationError: "_id" is not allowed 
+    url - /api/v1/users/update-admin 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:07:25.834Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:08:34.305Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:08:34.337Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:09:06.578Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:09:06.613Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:10:01.110Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:10:01.151Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:11:46.709Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:11:46.746Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:12:54.029Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:12:54.064Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee8$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/admin.service.js:245:19)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/delete-admin/61df99e602aa150b04fcff58 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:12:54.948Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:13:54.887Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:13:54.922Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee8$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:126:16)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/delete-admin/61df99e602aa150b04fcff58 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:13:56.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:14:39.388Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:14:39.421Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:18:22.131Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:18:22.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:20:06.041Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:20:06.087Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:22:52.509Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:22:52.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:23:52.351Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:23:52.381Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:24:18.790Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:24:18.822Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:24:41.527Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:24:41.567Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:25:34.462Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:25:34.495Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:26:06.290Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:26:06.322Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:26:34.906Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:26:34.937Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:28:44.674Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:28:44.708Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:35:03.067Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:35:03.099Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:36:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:35:06.257Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:36:15.011Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:36:15.060Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:36:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:36:23.393Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:38:44.003Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:38:44.054Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:39:03.172Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:39:03.208Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:36:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:39:04.621Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:40:20.613Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:40:20.646Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:30:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:40:29.957Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:40:55.469Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:40:55.501Z"}
+error: 
+    status - 500 
+    message - ReferenceError: body is not defined
+    at _callee2$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:49:11)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/get-all-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:42:05.240Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:43:10.281Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:43:10.315Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:45:01.869Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:45:01.902Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee4$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:112:21)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/update-employee/61de856975e9de3b689af096 
+    method - PUT 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:48:19.042Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:49:06.346Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:49:06.378Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:51:22.853Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:51:22.894Z"}
+error: 
+    status - 500 
+    message - ReferenceError: data is not defined
+    at _callee5$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/employee.controller.js:78:16)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/delete-employee/61de856975e9de3b689af096 
+    method - DELETE 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T04:51:48.423Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:52:42.402Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:52:42.433Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T04:57:34.860Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T04:57:34.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T05:05:51.331Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:05:51.383Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T05:06:59.202Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:06:59.265Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T05:08:15.100Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:08:15.150Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T05:09:35.705Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:09:35.759Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T05:12:14.611Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T05:12:14.661Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T06:25:53.118Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:25:53.160Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T06:26:12.671Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:26:12.743Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T06:28:50.863Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:28:50.938Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T06:29:56.259Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:29:56.377Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T06:31:27.107Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T06:31:27.171Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:07:28.419Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:07:28.485Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:13:48.004Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:13:48.094Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:18:21.770Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:18:21.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:19:34.013Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:19:34.090Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:19:54.247Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:19:54.296Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:21:25.323Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:21:25.379Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:22:36.386Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:22:36.425Z"}
+error: 
+    status - 500 
+    message - Error: Cannot set headers after they are sent to the client
+    at new NodeError (node:internal/errors:371:5)
+    at ServerResponse.setHeader (node:_http_outgoing:576:11)
+    at ServerResponse.header (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:776:10)
+    at ServerResponse.send (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:170:12)
+    at ServerResponse.json (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\response.js:267:15)
+    at _callee5$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\controllers\/admin.controller.js:81:27)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/users/get-all-admin 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T07:22:38.331Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:23:52.119Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:23:52.196Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:30:11.092Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:30:11.154Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:40:32.610Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:40:32.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:41:16.950Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:41:16.993Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:43:54.507Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:43:54.558Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:50:36.481Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:50:36.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:51:08.156Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:51:08.195Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:52:17.304Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:52:17.344Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:55:09.423Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:55:09.459Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T07:55:59.501Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T07:55:59.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T08:00:48.508Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T08:00:48.545Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T08:19:30.065Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T08:19:30.129Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T08:29:16.222Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T08:29:16.268Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:38:38.869Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:38:38.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:42:27.634Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:42:27.686Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:48:47.121Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:48:47.175Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:49:21.019Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:49:21.072Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:51:57.535Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:51:57.578Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:53:02.154Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:53:02.204Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:53:24.482Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:53:24.525Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:53:58.459Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:53:58.503Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:57:34.484Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:57:34.537Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T09:59:56.836Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T09:59:56.880Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:00:26.830Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:00:26.871Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:05:55.538Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:05:55.577Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:29:07.821Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:29:07.874Z"}
+error: 
+    status - 500 
+    message - ValidationError: "password" is not allowed 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T10:29:07.942Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:30:28.868Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:30:28.909Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:47:25.561Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:47:25.609Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:48:29.561Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:48:29.615Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:51:40.450Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:51:40.499Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:52:42.491Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:52:42.540Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:55:19.266Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:55:19.318Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:58:15.271Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:58:15.324Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T10:59:20.248Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T10:59:20.291Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:00:29.397Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:00:29.449Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:01:22.572Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:01:22.620Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:01:47.814Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:01:47.863Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:05:02.787Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:05:02.838Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is not allowed 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:02.980Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:05:28.785Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:05:28.835Z"}
+error: 
+    status - 500 
+    message - ValidationError: "confirmPassword" is not allowed 
+    url - /api/v1/users/forgot-password 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T11:05:28.982Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:17:37.910Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:17:37.962Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:18:17.559Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:18:17.601Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:19:35.805Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:19:35.862Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:20:29.334Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:20:29.392Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:21:06.846Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:21:06.898Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:45:28.548Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:45:28.580Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:46:51.511Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:46:51.547Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:48:27.940Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:48:27.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:48:47.458Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:48:47.491Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:50:20.462Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:50:20.504Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:51:29.784Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:51:29.824Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T11:54:35.676Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T11:54:35.723Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T12:02:53.851Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T12:02:53.893Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T12:03:55.772Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T12:03:55.817Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T12:04:39.756Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T12:04:39.798Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T13:59:05.999Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T13:59:06.046Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:00:08.293Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:00:08.349Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:01:12.189Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:01:12.240Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:79:15)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:01:12.409Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:01:57.120Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:01:57.226Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:79:15)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:01:57.411Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:02:11.569Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:02:11.614Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:79:15)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:02:11.779Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:03:21.463Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:03:21.508Z"}
+error: 
+    status - 500 
+    message - ReferenceError: joi is not defined
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:79:15)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:03:21.670Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:04:30.155Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:04:30.202Z"}
+error: 
+    status - 500 
+    message - ValidationError: "joinDate" is required 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:04:30.374Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:05:11.744Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:05:11.787Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.required is not a function
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:79:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:05:12.026Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:05:58.177Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:05:58.227Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:05:58.404Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:09:02.802Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:09:02.846Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:03.011Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:09:36.409Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:09:36.446Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:09:39.539Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:11:13.555Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:11:13.589Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:11:14.748Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:12:56.760Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:12:56.794Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:12:58.186Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:13:25.975Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:14:03.391Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:14:03.426Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:15:17.673Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:15:17.704Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:17:00.214Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:17:00.249Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:17:28.899Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:17:28.931Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:18:04.219Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:18:04.255Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:20:45.205Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:20:45.232Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:23:38.962Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:23:38.997Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:25:49.412Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:25:49.447Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:26:03.654Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:03.691Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RqwerN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:26:04.677Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:26:33.990Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:26:58.744Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:26:58.778Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:26:59.737Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:27:14.473Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:27:33.616Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:28:04.943Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:29:09.659Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:29:09.696Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:29:24.552Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:29:29.873Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:31:46.022Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:32:20.795Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:32:20.831Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:32:23.184Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:32:52.864Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:32:52.898Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T14:32:54.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T14:33:51.483Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T14:33:51.519Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:52:10.952Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:52:10.999Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:52:51.305Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:52:51.354Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:53:25.453Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:53:25.502Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:57:43.148Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:57:43.197Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T15:57:43.363Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:58:15.350Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:58:15.404Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "MERN1" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T15:58:15.566Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:58:42.955Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:58:43.003Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T15:58:43.164Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T15:59:29.302Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T15:59:29.348Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T15:59:29.514Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:00:10.118Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:00:10.154Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:00:23.888Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:04:28.543Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:04:28.575Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:04:32.482Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:10:13.207Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:10:13.243Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:10:30.413Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:10:30.449Z"}
+error: 
+    status - 500 
+    message - ValidationError: "data" is not allowed 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:10:31.679Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:13:27.974Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:13:28.010Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:14:36.361Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:14:36.398Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "MER1N" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:14:39.002Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:15:21.653Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:15:21.688Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "MER1N" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:15:22.712Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:15:28.925Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:16:11.281Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:16:11.316Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.alphanumeric is not a function
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:76:21)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:16:26.582Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:17:28.180Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:17:28.214Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.alphanum is not a function
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:76:21)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:17:29.047Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.alphanum is not a function
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:76:21)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:17:56.785Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:18:09.529Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:18:09.559Z"}
+error: 
+    status - 500 
+    message - TypeError: _joi.default.string.alphanum is not a function
+    at empValidator (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\validators\/validator.js:76:28)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:25:5)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:18:10.432Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:19:39.451Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:19:39.487Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:20:24.891Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:20:24.933Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:20:58.242Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:20:58.285Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:20:58.451Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:27:19.015Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:27:19.054Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.230Z"}
+error: 
+    status - 500 
+    message - ValidationError: "lastName" with value "ME123&RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.317Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.394Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.470Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.545Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:27:19.622Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:33:03.732Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:33:03.776Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:34:17.745Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:34:17.789Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:34:36.046Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:34:36.080Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:36:25.681Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:36:25.726Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:37:18.905Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:37:18.949Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:21:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at query (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\application.js:174:10)
+    at Server.app (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17) 
+    url - /api/v1/employee/get-all-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:37:19.107Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:37:49.914Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:37:49.953Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:21:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at jsonParser (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\types\json.js:110:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at urlencodedParser (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\types\urlencoded.js:91:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:142:6)
+    at xXssProtectionMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-xss-protection\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at referrerPolicyMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\referrer-policy\index.js:24:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xPermittedCrossDomainPoliciesMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-permitted-cross-domain-policies\index.js:15:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xContentTypeOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-content-type-options\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xDownloadOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-download-options\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at strictTransportSecurityMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\strict-transport-security\index.js:34:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xPoweredByMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-powered-by\index.js:6:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xFrameOptionsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-frame-options\index.js:21:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at expectCtMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\expect-ct\index.js:24:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at xDnsPrefetchControlMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\x-dns-prefetch-control\index.js:7:3)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at contentSecurityPolicyMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\middlewares\content-security-policy\index.js:124:4)
+    at internalNext (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:145:6)
+    at helmetMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\helmet\dist\index.js:147:6)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at cors (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:188:7)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:224:17
+    at originCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:214:15)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:219:13
+    at optionsCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:199:9)
+    at corsMiddleware (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\cors\lib\index.js:204:7)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at expressInit (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\middleware\init.js:40:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at query (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\middleware\query.js:45:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\application.js:174:10)
+    at Server.app (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\express.js:39:9)
+    at Server.emit (node:events:390:28)
+    at parserOnIncoming (node:_http_server:951:12)
+    at HTTPParser.parserOnHeadersComplete (node:_http_common:128:17) 
+    url - /api/v1/employee/get-all-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:37:50.112Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:41:00.936Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:41:00.977Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:42:19.478Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:42:19.512Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:43:51.344Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:43:51.373Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:46:59.078Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:46:59.120Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:47:53.016Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:47:53.060Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:50:02.533Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:50:02.589Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:50:19.905Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:50:19.955Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:56:11.044Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:56:11.091Z"}
+error: 
+    status - 500 
+    message - ReferenceError: foundAdmin is not defined
+    at _callee3$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\services\/employee.service.js:60:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at processTicksAndRejections (node:internal/process/task_queues:96:5) 
+    url - /api/v1/employee/get-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T16:56:11.248Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:57:27.457Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:57:27.524Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T16:58:20.872Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T16:58:20.914Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:00:19.192Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:00:19.236Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:02:17.884Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:02:17.934Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:02:39.431Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:02:39.474Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:03:49.475Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:03:49.517Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:05:54.223Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:05:54.261Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:06:59.524Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:06:59.571Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:21:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/employee/get-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T17:06:59.722Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:07:15.713Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:07:15.762Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:21:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/employee/get-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T17:07:15.917Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:40:03.567Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:40:03.610Z"}
+error: 
+    status - 500 
+    message - JsonWebTokenError: jwt malformed
+    at Object.verify (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\jsonwebtoken\verify.js:63:17)
+    at _callee$ (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:21:28)
+    at tryCatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:63:40)
+    at Generator.invoke [as _invoke] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:294:22)
+    at Generator.next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\regenerator-runtime\runtime.js:119:21)
+    at asyncGeneratorStep (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:3:24)
+    at _next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:25:9)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:32:7
+    at new Promise (<anonymous>)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\@babel\runtime\helpers\asyncToGenerator.js:21:12
+    at userAuth (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\src\middlewares\/auth.middleware.js:12:22)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:137:13)
+    at Route.dispatch (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\route.js:112:3)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:281:22
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at Function.handle (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:174:3)
+    at router (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:47:12)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at logger (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\morgan\index.js:144:5)
+    at Layer.handle [as handle_request] (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\layer.js:95:5)
+    at trim_prefix (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:323:13)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:284:7
+    at Function.process_params (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:341:12)
+    at next (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\express\lib\router\index.js:275:10)
+    at C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\body-parser\lib\read.js:130:5
+    at invokeCallback (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:224:16)
+    at done (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:213:7)
+    at IncomingMessage.onEnd (C:\Users\HP\Desktop\Project\Employee_App\Emp_Payroll\node_modules\raw-body\index.js:273:7)
+    at IncomingMessage.emit (node:events:402:35)
+    at endReadableNT (node:internal/streams/readable:1343:12)
+    at processTicksAndRejections (node:internal/process/task_queues:83:21) 
+    url - /api/v1/employee/get-employee 
+    method - GET 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-13T17:40:03.765Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:41:19.788Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:41:19.829Z"}
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-13T17:46:07.218Z"}
+info: Connected to the database. {"timestamp":"2022-01-13T17:46:07.261Z"}

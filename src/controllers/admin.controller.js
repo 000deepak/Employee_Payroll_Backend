@@ -40,7 +40,7 @@ export const loginAdmin = async (req, res, next) => {
 };
 
 /**
- * Controller to forgot pasword link
+ * Controller to forgoot pasword link
  * @param  {object} req - request object
  * @param {object} res - response object
  * @param {Function} next

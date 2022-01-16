@@ -1,0 +1,30 @@
+info: Server started at http://localhost:3000/api/v1/ {"timestamp":"2022-01-15T03:57:31.043Z"}
+info: Connected to the database. {"timestamp":"2022-01-15T03:57:31.087Z"}
+error: 
+    status - 500 
+    message - ValidationError: "firstName" with value "ME1RN" fails to match the required pattern: /^[a-zA-Zs]+$/ 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T04:00:41.107Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T04:00:47.763Z"}
+error: 
+    status - 500 
+    message - ValidationError: "email" must be a valid email 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T04:00:56.867Z"}
+error: 
+    status - 500 
+    message - ValidationError: "salary" must be a number 
+    url - /api/v1/employee/add-employee 
+    method - POST 
+    IP - ::ffff:127.0.0.1
+   {"timestamp":"2022-01-15T04:01:02.396Z"}

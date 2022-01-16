@@ -6,7 +6,7 @@ import { userAuth } from '../middlewares/auth.middleware';
 const router = express.Router();
 
 //route to add employee
-router.post('/add-employee',userAuth , EmployeeController.newEmployee);
+router.post('/add-employee',userAuth,Validator.empValidator , EmployeeController.newEmployee);
 
 //route to get ALL employee
 router.get('/get-all-employee',userAuth , EmployeeController.getAllEmployees);
@@ -19,6 +19,5 @@ router.put('/update-employee/:_id',userAuth , EmployeeController.updateEmployee)
 
 //route to delete a single employee by their user id
 router.delete('/delete-employee/:_id',userAuth ,EmployeeController.deleteEmployee); 
-
 
 export default router;

@@ -40,7 +40,7 @@ export const getAllEmployees = async (req, res, next) => {
 export const getEmployee = async (req, res, next) => {
   try {
     //const data = await EmployeeService.getEmployee(req.params._id);
-    const data = await EmployeeService.getEmployee(req.body.employeeId);
+    const data = await EmployeeService.getEmployee(req.body);
     res.status(data.status).json(data);
   } catch (error) {
     next(error);

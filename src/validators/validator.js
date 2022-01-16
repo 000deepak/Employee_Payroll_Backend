@@ -2,13 +2,13 @@ import Joi from 'joi';
 
 export const adminValidator = (req, res, next) => {
   const schema = Joi.object({
-    firstName: Joi.string().min(3).max(20).required(), //.pattern(new RegExp("([A-Z][a-z]*)([\\s\\'-][A-Z][a-z]*)*")),
+    firstName: Joi.string().alphanum().min(2).max(20).required(),
 
-    lastName: Joi.string().min(2).max(20).required(), //.pattern(new RegExp("([A-Z][a-z]*)([\\s\\'-][A-Z][a-z]*)*")),
+    lastName: Joi.string().alphanum().min(2).max(20).required(),
 
-    email: Joi.string(), //.pattern(new RegExp("^^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$")).required(),
+    email: Joi.string().email().required(),
 
-    password: Joi.string() //.pattern(new RegExp("^^[a-zA-Z0-9+_.-]+@[a-zA-Z0-9.-]+$")).required(),
+    password: Joi.string().alphanum().min(6).max(20).required().pattern(new RegExp('^[a-zA-Z0-9]{6,30}$')),
   });
   const { error, value } = schema.validate(req.body);
   if (error) {
@@ -64,21 +64,31 @@ export const emailValidator = (req, res, next) => {
 
 export const empValidator = (req, res, next) => {
   const schema = Joi.object({
-    firstName: Joi.string().min(3).max(20).required(), //.pattern(new RegExp("([A-Z][a-z]*)([\\s\\'-][A-Z][a-z]*)*")),
+    firstName: Joi.string()
+      .min(3)
+      .max(20)
+      .required()
+      .pattern(new RegExp('^[a-zA-Zs]+$')),
 
-    lastName: Joi.string().min(2).max(20).required(), //.pattern(new RegExp("([A-Z][a-z]*)([\\s\\'-][A-Z][a-z]*)*")),
+    lastName: Joi.string()
+      .min(2)
+      .max(20)
+      .required()
+      .pattern(new RegExp('^[a-zA-Zs]+$')),
 
     email: Joi.string().email().required(),
 
-    department: Joi.string().required(),
-
     gender: Joi.string().allow(null, ''),
+
+    department: Joi.string().alphanum().required(),
 
     salary: Joi.number().allow(null, ''),
 
-    joinDate: joi.date().raw().required(),
+    date: Joi.string().required(),
 
-    note: Joi.string().allow(null, '')
+    note: Joi.string().allow(null, ''),
+
+    data: Joi.allow()
   });
   const { error, value } = schema.validate(req.body);
   if (error) {

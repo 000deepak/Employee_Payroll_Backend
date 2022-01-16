@@ -1,0 +1,656 @@
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:34:25 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 161 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:34:35 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 161 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:34:38 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 161 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:49:13 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 90 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:49:56 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:52:15 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 188 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:57:16 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:58:00 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 77 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:02:58:54 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 187 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:01:29 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 187 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:13:40 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 65 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:14:55 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 65 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:16:30 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 65 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:17:00 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:17:58 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 355 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:19:33 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 174 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:39:16 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:41:00 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:41:47 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 201 406 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:42:03 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 201 129 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:42:20 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 201 126 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:42:48 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 126 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:42:57 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 401 129 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:45:36 +0000] "POST /api/v1/forgot-password HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:45:45 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:46:27 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 99 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:46:42 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:47:45 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 401 129 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:47:52 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 405 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:48:19 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 500 94 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:51:43 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 200 351 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:52:30 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 200 351 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:52:41 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 400 56 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:54:37 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 500 77 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:55:51 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:57:11 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 201 1442 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:03:58:52 +0000] "GET /api/v1/users/get-admin HTTP/1.1" 500 167 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:00:25 +0000] "GET /api/v1/users/get-admin HTTP/1.1" 500 158 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:00:58 +0000] "GET /api/v1/users/get-admin HTTP/1.1" 201 339 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:07:25 +0000] "PUT /api/v1/users/update-admin HTTP/1.1" 500 57 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:10:12 +0000] "PUT /api/v1/users/update-admin/61df99e602aa150b04fcff58 HTTP/1.1" 201 287 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:10:22 +0000] "PUT /api/v1/users/update-admin/61df99e602aa150b04fcff58 HTTP/1.1" 201 288 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:10:35 +0000] "PUT /api/v1/users/update-admin/61df99e602aa150b04fcff58 HTTP/1.1" 201 287 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:10:56 +0000] "DELETE /api/v1/delete-employee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:11:10 +0000] "DELETE /api/v1/users/delete-employee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:11:53 +0000] "DELETE /api/v1/users/delete-employee/61df99e602aa150b04fcff58 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:12:31 +0000] "DELETE /api/v1/users/delete-admin/61df99e602aa150b04fcff58 HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:12:54 +0000] "DELETE /api/v1/users/delete-admin/61df99e602aa150b04fcff58 HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:13:56 +0000] "DELETE /api/v1/users/delete-admin/61df99e602aa150b04fcff58 HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:14:40 +0000] "DELETE /api/v1/users/delete-admin/61df99e602aa150b04fcff58 HTTP/1.1" 201 68 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:28:48 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 129 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:29:11 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 129 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:29:28 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 339 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:29:38 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 368 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:30:04 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:35:06 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:36:23 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:39:04 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:40:21 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 303 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:40:29 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:41:03 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 304 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:42:05 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:43:11 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 200 591 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:43:42 +0000] "GET /api/v1/get-employee HTTP/1.1" 404 47 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:43:54 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:45:34 +0000] "PUT /api/v1/employee/update-employee/61d9e6dbbb54c405a4f0ac52 HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:48:08 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 200 327 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:48:19 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:49:11 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 404 300 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:49:21 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 200 329 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:49:34 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 200 314 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:49:43 +0000] "PUT /api/v1/employee/update-employee/61de856975e9de3b689af096 HTTP/1.1" 200 315 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:51:48 +0000] "DELETE /api/v1/employee/delete-employee/61de856975e9de3b689af096 HTTP/1.1" 500 54 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:04:52:43 +0000] "DELETE /api/v1/employee/delete-employee/61de856975e9de3b689af096 HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:05:05:51 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:05:06:59 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:05:08:15 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:05:09:35 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:05:12:14 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:06:26:12 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:06:28:51 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:06:29:56 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:06:31:27 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:07:28 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:13:59 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 339 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:18:21 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:19:34 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:20:03 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:21:25 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:22:38 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 500 7 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:23:52 +0000] "GET /api/v1/users/get-all-admins HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:30:11 +0000] "GET /api/v1/users/register-admin HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:40:32 +0000] "GET /api/v1/users/register-admin HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:41:17 +0000] "GET /api/v1/users/register-admin HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:43:54 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 343 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:50:36 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 162 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:51:08 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 344 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:52:17 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 163 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:55:09 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 163 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:07:55:59 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 345 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:08:00:48 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 346 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:08:19:30 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 346 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:08:29:16 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:38:39 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:42:27 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:42:27 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:48:47 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:48:47 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:48:47 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:49:21 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:49:21 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:49:21 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:49:21 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:51:57 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 157 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:51:57 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:53:02 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 200 157 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:53:24 +0000] "POST /api/v1/users/register-admin HTTP/1.1" 201 338 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:53:58 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:57:34 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 111 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:57:34 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 401 112 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:09:59:56 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:00:26 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:05:55 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 404 68 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:29:07 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 500 62 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:29:08 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:30:29 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:30:29 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:48:29 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:51:40 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:52:42 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:55:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:55:19 +0000] "POST /api/v1/users/reset-password HTTP/1.1" 200 334 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:58:15 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 401 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:10:59:20 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 401 113 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:00:29 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:00:29 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:01:22 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:01:22 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:01:47 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:01:48 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 404 90 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:05:02 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:05:02 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 500 69 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:05:28 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:05:28 +0000] "POST /api/v1/users/forgot-password HTTP/1.1" 500 69 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:17:38 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:17:38 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 201 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:17:38 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:17:38 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 201 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:18:17 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:18:17 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 201 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:19:36 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:19:36 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:20:29 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:20:29 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:21:07 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:21:07 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:45:31 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 325 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:50:20 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:50:20 +0000] "POST /api/v1/users/add-employee HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:50:20 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:50:20 +0000] "GET /api/v1/users/get-all-admin HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:51:29 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:51:29 +0000] "POST /api/v1/users/add-employee HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:54:35 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:11:54:35 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 325 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:02:54 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:02:54 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:03:55 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:03:55 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 304 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:04:39 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:12:04:39 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:13:59:06 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:13:59:06 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 306 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:00:08 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:00:08 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:01:12 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:01:12 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:01:57 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:01:57 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:02:11 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:02:11 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:03:21 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:03:21 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 53 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:04:30 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:04:30 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 59 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:05:11 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:05:12 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 81 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:05:58 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:05:58 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:09:02 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:09:03 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:09:39 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:11:14 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:12:58 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:13:25 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:14:04 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:15:23 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:15:48 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:15:57 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:16:20 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 333 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:17:05 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:17:34 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:18:11 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 331 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:18:18 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 333 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:18:23 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 312 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:18:32 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 313 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:18:37 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:21:02 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 314 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:21:07 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 336 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:21:14 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 335 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:21:18 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 314 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:21:33 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 331 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:23:46 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 330 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:23:50 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 309 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:24:09 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 311 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:24:13 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 333 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:25:51 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 334 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:26:04 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 125 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:26:33 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:26:59 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:27:14 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:27:33 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:28:04 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:29:24 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:29:29 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:31:46 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:32:23 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:32:54 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:14:33:52 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 257 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:28:33 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 236 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:28:39 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 237 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:28:42 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 238 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:52:11 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:52:11 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 327 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:52:51 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:52:51 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:53:25 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:53:25 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 305 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:57:43 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:57:43 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:58:15 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:58:15 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:58:43 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:58:43 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:59:29 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:15:59:29 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:00:23 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:04:32 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:10:31 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 58 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:13:30 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 328 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:14:39 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:15:22 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 120 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:15:28 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 66 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:16:26 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 78 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:17:29 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 74 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:17:56 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 74 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:18:10 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 81 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:19:40 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 200 308 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:20:25 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:20:25 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 201 328 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:20:58 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:20:58 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 123 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:27:19 +0000] "POST /api/v1/employee/add-employee HTTP/1.1" 500 121 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:33:03 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:33:03 +0000] "POST /api/v1/employee/get-all-employee HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:34:17 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:34:17 +0000] "POST /api/v1/employee/get-all-employee HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:34:40 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 200 4033 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:36:25 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:36:25 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 200 597 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:37:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:37:19 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:37:50 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:37:50 +0000] "GET /api/v1/employee/get-all-employee HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:41:01 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:41:01 +0000] "GET /api/v1/employee/get-employee/61e05149b796070d143d479c HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:42:21 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:43:59 +0000] "GET /api/v1/employee/get-employee/ HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:44:07 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "Thunder Client (https://www.thunderclient.io)"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:46:59 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:46:59 +0000] "GET /api/v1/employee/get-employee/61e05149b796070d143d479c HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:47:53 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:47:53 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:02 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:02 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:02 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:02 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:20 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:50:20 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:56:11 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:56:11 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 500 60 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:57:27 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:57:27 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:58:21 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:16:58:21 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:00:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:00:19 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 70 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:02:18 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:02:18 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 404 180 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:02:39 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:02:39 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 404 180 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:03:49 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:03:49 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:05:54 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:05:54 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 200 329 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:06:59 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:06:59 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:07:15 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:07:15 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:40:03 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:40:03 +0000] "GET /api/v1/employee/get-employee HTTP/1.1" 500 48 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:40:03 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:40:03 +0000] "GET /api/v1/employee/update-employee/61e04aabde000403ec139444 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:41:19 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:41:19 +0000] "GET /api/v1/employee/update-employee/61e04aabde000403ec139444 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:46:07 +0000] "POST /api/v1/users/login-admin HTTP/1.1" 200 366 "-" "node-superagent/3.8.3"
+
+info: ::ffff:127.0.0.1 - - [13/Jan/2022:17:46:07 +0000] "GET /api/v1/employee/update-employee/61e04aabde000403ec139444 HTTP/1.1" 404 47 "-" "node-superagent/3.8.3"
+

@@ -1,6 +1,6 @@
 import HttpStatus from 'http-status-codes';
 
-import logger from '../config/logger';
+import logger from '../config/logger.js';
 
 /**
  * Error response middleware for 404 not found.

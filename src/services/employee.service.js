@@ -24,7 +24,7 @@ export const newEmployee = async (body) => {
 
     const data = await Employee.create(newEmp);
 
-    response.status = 200;
+    response.status = 201;
     response.success = true;
     response.message = 'Employee Added';
     response.data = data;
@@ -57,20 +57,28 @@ export const getAllEmployees = async () => {
 };
 
 //get single Employee
-export const getEmployee = async (id) => {
-  const data = await Employee.findById(id);
+export const getEmployee = async (body) => {
   let response = {
     status: 201,
     success: true,
     message: '',
     data: ''
   };
-
-  response.status = 200;
-  response.success = true;
-  response.message = 'Employee Fetched';
-  response.data = data;
-  return response;
+  let email = { email: body.email };
+  let data = await Employee.findOne(email);
+  if (data) {
+    response.status = 200;
+    response.success = true;
+    response.message = 'Employee Fetched';
+    response.data = data;
+    return response;
+  } else {
+    response.status = 404;
+    response.success = true;
+    response.message = 'Employee Not Found';
+    response.data = body;
+    return response;
+  }
 };
 
 //update single Employee

@@ -155,30 +155,31 @@ export const resetPassword = async (body) => {
 
     response.status = 200;
     response.success = true;
-    response.message = 'Password Update Successful';
+    response.message = "Password Update Successful";
     response.data = update;
 
     return response;
+
   } else {
+    
     response.status = 200;
     response.success = false;
-    response.message = 'Admin Not Found';
+    response.message = "Admin Not Found";
     response.data = body;
 
-    return response;
-  }
+    return response;}
 };
 
 //get all Admins
 export const getAllAdmins = async () => {
   const data = await Admin.find();
   let response = {
-    status: 201,
+    status: 200,
     success: false,
     message: '',
     data: ''
   };
-  response.status = 201;
+  response.status = 200;
   response.success = false;
   response.message = 'All Admin Fectched';
   response.data = data;
