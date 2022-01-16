@@ -23,33 +23,37 @@
     "lastName": "MER@N123",
     "email": "dee@gmail.com",
     "password": "MERN123"
+  },
+  "incorrectEmailRegister": {
+    "firstName": "MERN",
+    "lastName": "MERN123",
+    "email": "deegmail.com",
+    "password": "MERN123"
+  },
+  "incorrectPasswordRegister": {
+    "firstName": "MERN",
+    "lastName": "MERN123",
+    "email": "dee@gmail.com",
+    "password": "MERN"
+  },
+  "unregisteredEmail": {
+    "email": "de@gmail.com"
+  },
+  "registeredEmail": {
+    "email": "dee@gmail.com"
+  },
+  "incorrectEmail": {
+    "email": "de@gmail.com",
+    "password": "MERN123"
+  },
+  "incorrectPassword": {
+    "email": "dee@gmail.com",
+    "password": "ERN123"
+  },
+  "newPassword": {
+    "confirmPassword": "Mern123"
+  },
+  "newImproperPassword": {
+    "confirmPassword": "Mern"
   }
-  ,
-    "incorrectEmailRegister": {
-      "firstName": "MERN",
-      "lastName": "MERN123",
-      "email": "deegmail.com",
-      "password": "MERN123"
-    },
-    "incorrectPasswordRegister": {
-      "firstName": "MERN",
-      "lastName": "MERN123",
-      "email": "dee@gmail.com",
-      "password": "MERN"
-    },
-    "incorrectEmail": {
-      "email": "de@gmail.com",
-      "password": "MERN123"
-    },
-    "incorrectPassword": {
-      "email": "dee@gmail.com",
-      "password": "ERN123"
-    },
-      "newPassword": {
-      "confirmPassword": "Mern123"
-    },
-    "newImproperPassword": {
-      "confirmPassword": "Mern"
-    }
-
 }

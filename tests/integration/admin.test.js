@@ -199,4 +199,40 @@ describe('User APIs Test', () => {
         });
     });
   });
+
+  /* get admin*/
+  describe('get /get all admin', () => {
+    beforeEach((done) => {
+      let input = data.loginData;
+      request(app)
+        .post('/api/v1/users/login-admin')
+        .send(input)
+        .end((err, res) => {
+          token = res.body.data.token;
+          console.log(token);
+          expect(res.status).to.be.equal(200);
+          done();
+        });
+    });
+    // get all admin with correct token
+    it('given proper token When added Should respond with status code 200', (done) => {
+      request(app)
+        .get('/api/v1/users/get-all-admin')
+        .set({ token: token })
+        .end((err, res) => {
+          expect(res.status).to.be.equal(200);
+          done();
+        });
+    });
+    //get admin with incorrect token
+    it('given incorrect email When added Should  respond with status code 404', (done) => {
+      request(app)
+        .get('/api/v1/users/get-all-admin')
+        .set({ token: 'ertgdf' })
+        .end((err, res) => {
+          expect(res.status).to.be.equal(404);
+          done();
+        });
+    });
+  });
 });
