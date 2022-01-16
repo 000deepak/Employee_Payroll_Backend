@@ -11,6 +11,12 @@
     "lastName": "MERN",
     "email": "deep@gmail.com",
     "password": "Mern123"
+  },
+  "incorrectFName": {
+    "firstName": "ME@R1N",
+    "lastName": "MERN",
+    "email": "dee@gmail.com",
+    "password": "MERN123"
   }
 
 }

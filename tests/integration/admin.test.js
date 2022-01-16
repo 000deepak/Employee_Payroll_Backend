@@ -45,7 +45,7 @@ describe('User APIs Test', () => {
     });
     //empty details
     it('given proper admin detail When added Should resister user with status code 201', (done) => {
-      let input = data.incorrectFName;
+      let input = data.empty;
       request(app)
         .post('/api/v1/users/register-admin')
         .send(input)
@@ -54,5 +54,16 @@ describe('User APIs Test', () => {
           done();
         });
     });
+       //empty details
+       it('given proper admin detail When added Should resister user with status code 201', (done) => {
+        let input = data.incorrectFName;
+        request(app)
+          .post('/api/v1/users/register-admin')
+          .send(input)
+          .end((err, res) => {
+            expect(res.status).to.be.equal(500);
+            done();
+          });
+      });
   });
 });
