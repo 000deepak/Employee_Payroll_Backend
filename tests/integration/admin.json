@@ -44,6 +44,12 @@
     "incorrectPassword": {
       "email": "dee@gmail.com",
       "password": "ERN123"
+    },
+      "newPassword": {
+      "confirmPassword": "Mern123"
+    },
+    "newImproperPassword": {
+      "confirmPassword": "Mern"
     }
 
 }

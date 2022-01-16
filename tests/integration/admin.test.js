@@ -65,7 +65,6 @@ describe('User APIs Test', () => {
           done();
         });
     });
-
     //improper lastname
     it('given proper admin detail When added Should resister user with status code 201', (done) => {
       let input = data.incorrectLName;
@@ -114,7 +113,6 @@ describe('User APIs Test', () => {
           done();
         });
     });
-
     //login with incorrect emial
     it('given incorrect email When added Should  respond with status code 404', (done) => {
       let input = data.incorrectEmail;
@@ -137,7 +135,6 @@ describe('User APIs Test', () => {
           done();
         });
     });
-
     //login with empty details
     it('given empty details When added Should  status code 404', (done) => {
       let input = data.empty;
@@ -146,6 +143,58 @@ describe('User APIs Test', () => {
         .send(input)
         .end((err, res) => {
           expect(res.status).to.be.equal(404);
+          done();
+        });
+    });
+  });
+
+  /* reset password */
+  describe('post /forgot-password', () => {
+    beforeEach((done) => {
+      let input = data.loginData;
+      request(app)
+        .post('/api/v1/users/login-admin')
+        .send(input)
+        .end((err, res) => {
+          token = res.body.data.token;
+          console.log(token);
+          expect(res.status).to.be.equal(200);
+          done();
+        });
+    });
+    // reset password with correct details
+    it('given proper email When added Should send link to email respond with status code 200', (done) => {
+      let input = data.newPassword;
+      request(app)
+        .post('/api/v1/users/reset-password')
+        .set({ token: token })
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(200);
+          done();
+        });
+    });
+    //reset password with incorrect token
+    it('given incorrect email When added Should  respond with status code 404', (done) => {
+      let input = data.unregisteredEmail;
+      request(app)
+        .post('/api/v1/users/forgot-password')
+        .set({ token: 'ertgdf' })
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(404);
+          done();
+        });
+    });
+    //reset password with improper password
+    it('given proper password When added Should send link to email respond with status code 500', (done) => {
+      let input = data.newImproperPassword;
+      request(app)
+        .post('/api/v1/users/forgot-password')
+        .set({ token: token })
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(500);
           done();
         });
     });
