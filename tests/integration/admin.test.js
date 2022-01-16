@@ -100,4 +100,19 @@ describe('User APIs Test', () => {
         });
     });
   });
+
+  /* login  */
+  //correct details login
+  describe('post /register', () => {
+    it('given proper admin detail When added Should login user with status code 200', (done) => {
+      let input = data.loginData;
+      request(app)
+        .post('/api/v1/users/login-admin')
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(200);
+          done();
+        });
+    });
+  })
 });
