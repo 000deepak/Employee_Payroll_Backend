@@ -137,5 +137,17 @@ describe('User APIs Test', () => {
           done();
         });
     });
+
+    //login with empty details
+    it('given empty details When added Should  status code 404', (done) => {
+      let input = data.empty;
+      request(app)
+        .post('/api/v1/users/login-admin')
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(404);
+          done();
+        });
+    });
   });
 });
