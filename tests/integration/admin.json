@@ -40,6 +40,10 @@
     "incorrectEmail": {
       "email": "de@gmail.com",
       "password": "MERN123"
+    },
+    "incorrectPassword": {
+      "email": "dee@gmail.com",
+      "password": "ERN123"
     }
 
 }

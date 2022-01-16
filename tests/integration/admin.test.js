@@ -126,5 +126,16 @@ describe('User APIs Test', () => {
           done();
         });
     });
+    //login with incorrect password
+    it('given incorrect password When added Should  status code 401', (done) => {
+      let input = data.incorrectPassword;
+      request(app)
+        .post('/api/v1/users/login-admin')
+        .send(input)
+        .end((err, res) => {
+          expect(res.status).to.be.equal(401);
+          done();
+        });
+    });
   });
 });
