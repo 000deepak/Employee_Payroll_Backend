@@ -36,6 +36,10 @@
       "lastName": "MERN123",
       "email": "dee@gmail.com",
       "password": "MERN"
+    },
+    "incorrectEmail": {
+      "email": "de@gmail.com",
+      "password": "MERN123"
     }
 
 }
