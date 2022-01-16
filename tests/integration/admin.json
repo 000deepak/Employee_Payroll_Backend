@@ -24,5 +24,12 @@
     "email": "dee@gmail.com",
     "password": "MERN123"
   }
+  ,
+    "incorrectEmailRegister": {
+      "firstName": "MERN",
+      "lastName": "MERN123",
+      "email": "deegmail.com",
+      "password": "MERN123"
+    }
 
 }
