@@ -54,7 +54,7 @@ describe('User APIs Test', () => {
           done();
         });
     });
-       //empty details
+       //incorrect firstname details
        it('given proper admin detail When added Should resister user with status code 201', (done) => {
         let input = data.incorrectFName;
         request(app)
@@ -66,4 +66,5 @@ describe('User APIs Test', () => {
           });
       });
   });
+  
 });
